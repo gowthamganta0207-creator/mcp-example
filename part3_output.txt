@@ -1,0 +1,20 @@
+The server offers 9 tools:
+  - train_models
+  - get_sample_input
+  - predict_logistic_regression
+  - predict_knn
+  - confusion_matrix_metrics
+  - select_best_model
+  - shap_explain_selected
+  - export_parquet_audit
+  - predict_both
+Patient 3: true = benign, logistic regression = benign, knn = malignant
+Patient 25: true = benign, logistic regression = benign, knn = malignant
+Patient 48: true = benign, logistic regression = benign, knn = malignant
+Patient 53: true = malignant, logistic regression = benign, knn = malignant
+Patient 76: true = malignant, logistic regression = malignant, knn = benign
+Patient 80: true = benign, logistic regression = benign, knn = malignant
+Patient 99: true = benign, logistic regression = benign, knn = malignant
+Patient 102: true = malignant, logistic regression = malignant, knn = benign
+
+The models disagree on 8 of 114 test patients.
