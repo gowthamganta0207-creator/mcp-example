@@ -1,5 +1,9 @@
 # MCP Assignment – Answers
 
+## Part 3 terminal output
+
+![Part 3 terminal output](part3_screenshot.png)
+
 ## 1. Tool count, and what changed in the client
 - **Part 1:** the server listed **8 tools**.
 - **Part 3:** the server listed **9 tools**. The new one is `predict_both`.
